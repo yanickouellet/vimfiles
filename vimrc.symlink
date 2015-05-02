@@ -21,6 +21,14 @@ Plug 'xenoterracide/html.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'bling/vim-airline'
 
+" Haskell
+Plug 'Shougo/vimproc.vim'
+Plug 'raichoo/haskell-vim'
+Plug 'enomsg/vim-haskellConcealPlus'
+Plug 'eagletmt/ghcmod-vim'
+Plug 'eagletmt/neco-ghc'
+Plug 'Twinside/vim-hoogle'
+
 call plug#end()
 
 " imports
