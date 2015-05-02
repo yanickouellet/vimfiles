@@ -16,6 +16,7 @@ Plug 'tpope/vim-bundler'
 Plug 'avakhov/vim-yaml'
 Plug 'xenoterracide/html.vim'
 Plug 'kchmck/vim-coffee-script'
+Plug 'bling/vim-airline'
 
 call plug#end()
 
