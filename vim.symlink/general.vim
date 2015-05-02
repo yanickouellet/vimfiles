@@ -28,6 +28,7 @@ set background=dark
 "Remove toolbar
 if has("gui_running")
 	set guioptions-=T
+	set guioptions-=r
 	nmap <silent> <C-Tab> :maca _cycleWindows:<CR>
 	nmap <silent> <C-S-Tab> :maca _cycleWindowsBackwards:<CR>
 	set balloondelay=100000 " Long balloon to avoir huge tooltip in ruby files
