@@ -1,6 +1,21 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/syntastic'
+Plug 'pangloss/vim-javascript'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-surround'
+
+Plug 'tpope/vim-rails'
+Plug 'tpope/gem-ctags'
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-bundler'
+
+
+Plug 'avakhov/vim-yaml'
+Plug 'xenoterracide/html.vim'
+Plug 'kchmck/vim-coffee-script'
 
 call plug#end()
 
