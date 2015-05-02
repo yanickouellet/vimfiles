@@ -4,4 +4,6 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 call plug#end()
 
+" imports
+source ~/.vim/general.vim
 
