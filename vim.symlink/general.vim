@@ -22,19 +22,22 @@ filetype indent on
 syntax on
 syntax enable
 set t_Co=256
-colorscheme vydark
 set background=dark
+
+colorscheme beekai
 
 "Remove toolbar
 if has("gui_running")
 	set guioptions-=T
+	set guioptions-=L
 	set guioptions-=r
+	set guioptions-=e
 	nmap <silent> <C-Tab> :maca _cycleWindows:<CR>
 	nmap <silent> <C-S-Tab> :maca _cycleWindowsBackwards:<CR>
 	set balloondelay=100000 " Long balloon to avoir huge tooltip in ruby files
+    colorscheme beekai 
 endif
 
-colorscheme Tomorrow-Night-Bright
 hi Normal ctermfg=252 ctermbg=none
 
 set incsearch

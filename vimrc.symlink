@@ -7,13 +7,14 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-Plug 'flazz/vim-colorschemes'
-Plug 'wincent/Command-T'
+Plug 'kien/ctrlp.vim'
+Plug 'Yggdroot/indentLine'
 
 Plug 'tpope/vim-rails'
 Plug 'tpope/gem-ctags'
 Plug 'tpope/vim-rake'
 Plug 'tpope/vim-bundler'
+Plug 'digitaltoad/vim-jade'
 
 
 Plug 'avakhov/vim-yaml'
@@ -28,6 +29,11 @@ Plug 'enomsg/vim-haskellConcealPlus'
 Plug 'eagletmt/ghcmod-vim'
 Plug 'eagletmt/neco-ghc'
 Plug 'Twinside/vim-hoogle'
+
+" Colorschemes
+Plug 'flazz/vim-colorschemes'
+Plug 'widatama/vim-phoenix'
+Plug 'stephanedemotte/beekai'
 
 call plug#end()
 
